@@ -1,0 +1,55 @@
+@import url("reset.css");
+/* *{
+	color: blue;
+} */
+[class*="__container"]{
+color: rgb(22, 209, 62);
+}
+.navigation li{
+	color: red;
+}
+#block-one{
+	color:rgb(42, 81, 165)
+}
+h1{
+	color: green;
+}
+span{
+	color: blueviolet;
+}
+.block-header__container span{
+	color: black;
+}
+*{
+	color: beige;
+}
+.text p{
+	color: chartreuse;
+}
+h2{
+	color: darkcyan;
+}
+.block-header__container .text{
+color: rgb(13, 13, 230);
+}
+.footer > p{
+color: blueviolet;
+}
+.footer > p +p{
+	color: aqua;
+}
+li{
+	color: crimson;
+}
+.text p {
+	color: rgb(241, 179, 21);
+}
+.example + p{
+	color: blue;
+}
+.text li {
+	color: rgb(99, 4, 102);
+}
+.text-information li ~li{
+	color: chartreuse;
+}
