@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@font-face{
+	font-family: "Monday-Donuts";
+	src:
+	 url(../font/Monday-Donuts.woff2) format("woff2"),
+	 url(../font/Monday-Donuts.woff) format("woff");
+	 font-weight: normal;
+	 font-style: normal;
+	 font-display: swap;
+}
+@font-face{
+	font-family: "brodies";
+	src:
+	 url(../font/brodies.woff2) format("woff2"),
+	 url(../font/brodies.woff) format("woff");
+	 font-weight: normal;
+	 font-style: normal;
+	 font-display: swap;
+}

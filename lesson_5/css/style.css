@@ -1,0 +1,103 @@
+@import url("fonts.css");
+@import url("reset.css");
+/* figma */
+body{
+	font-family: "Inter" , sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #7D7D7D;
+}
+.title-block-one {
+	font-family: "Poppins";
+	color: #37393F;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 38.10px;
+}
+.text-block-one,
+.text-block-two {
+	line-height: 26.31px;
+}
+.sub-title-block-one { 
+	font-family: "Poppins";
+	color: #6B77E5;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 25.40px;
+}
+.sub-title-block-two {
+	font-family: "Poppins";
+	color: #37393F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50.80px;
+}
+.text-block-one li,
+.text-block-two li{
+	font-weight: 500;
+}
+a{
+	color: red;
+	font-weight: 500;
+}
+/*         My Examples            */
+.title {
+	font-family: "Monday-Donuts";
+	font-style: italic;
+	color: rgb(240, 7, 170);
+	font-size: 25px;
+	text-align: center;
+	text-shadow: 2px 2px 1px #a0035165;
+}
+.navigation a {
+	font-family: "brodies";
+	color: rgb(69, 42, 165);
+	text-align: justify;
+	font-size: 23px;
+	text-decoration: underline;
+}
+.block-speak h2{
+	color: #32ee0d;
+}
+.sub-title {
+	font-family: "Monday-Donuts";
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	color: chartreuse;
+}
+.text {
+	font-family: brodies;
+	color: #3f1313;
+	text-align: justify;
+}
+.block-read h2,
+.block-read .text{
+	color: #6B77E5;
+	
+}
+.block-responsible h2{
+	color: #e5b06b;
+
+}
+.block-useful-purposes h2,
+.block-useful-purposes .text{
+	color: #e56bb2;
+
+}
+.block-remember h2{
+	color: #40af14;
+
+}
+.footer {
+}
+.start a{
+text-transform: uppercase;
+color: aqua;
+}
+.figma {
+	font-family: "Monday-Donuts";
+}
+h2{
+	text-shadow: 2px 2px 2px #0000003a;
+}
