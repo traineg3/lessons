@@ -1,0 +1,321 @@
+@import url("fonts.css");
+@import url("reset.css");
+/* ------------------------------------------ */
+.practice *{
+	min-height: 640px;
+	background-color: rgba(127, 255, 212, 0.281);
+	margin-bottom: 20px;
+}
+.practice h2{	min-height: 0px;
+	background-color: rgb(127, 255, 165);
+}
+.block-practice1 {
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(227,32,131,1) 35%, rgba(0,212,255,1) 100%);
+}
+.block-practice2 {
+	background: url(../img/ephoria_two.jpg);
+}
+.block-practice3 {
+	background: url(../img/ephoria_two.jpg) no-repeat;
+}
+.block-practice4 {
+	background: url(../img/ephoria_two.jpg) 50% no-repeat;
+}
+.block-practice5 {
+	background: url(../img/ephoria_two.jpg) 0 0 no-repeat fixed;
+}
+.block-practice6 {
+	background: url(../img/ephoria_two.jpg) 0 0 / cover  no-repeat ;
+}
+.block-practice7 {
+	background:  url('../img/ephotia_one.jpg') 0 0/50%  no-repeat, url('../img/ephoria_two.jpg') 100% 100%/50% no-repeat;
+}
+/* ------------------------------------- */
+.header{
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+/* ------------------------------------ */
+.block-one {
+	max-width: 1240px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.block-one-first__container{
+	margin: 0 74px;
+	max-width: 620px; 
+}
+.block-one-first {
+	font-family: "Causten";
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	max-width: 472px;
+	min-height: 640px;
+	background: url('../img/ephotia_one.jpg') 0 0 no-repeat;
+	border-radius: 15px 0px 0px 15px;
+	margin-bottom: 1px;
+}
+.block-one-first__title {
+	font-family: "Core Sans C", sans-serif;
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 50px;
+	letter-spacing: 0.21px;
+	margin-bottom: 30px;
+	padding-top: 183px;
+}
+.block-one-first__text {
+	margin-bottom: 50px;
+}
+.block-one-first__button {
+	display: inline-block;
+}
+.button__wrapper {
+	width: 168px;
+	height: 46px;
+	background-color: white;
+	padding: 12px 40px 12px 40px;
+	border-radius: 8px;
+}
+.button__text {
+	color: #3C4242;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+}
+.block-one-second {
+	min-width: 472px;
+	min-height: 641px;
+	background: url('../img/ephoria_two.jpg') 50%/ cover no-repeat;
+	border-radius: 0px 15px 15px 0px;
+	margin:-1px 0px 0px 0px;
+}
+.block-one-first,
+.block-one-second {
+	display: inline-block;
+	vertical-align: top;
+}
+/* ------------------------------------- */
+.block-two {
+	max-width: 1240px;
+	margin: 0 auto;
+	font-family: "Causten", sans-serif;
+	color: #807D7E;
+	font-size: 20px;
+	font-weight: 400;
+}
+.block-two-title {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.fiolet {
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	margin-right: 21px;
+	border-radius: 10px;
+}
+.clothing-title {
+	font-family: "Core Sans C", sans-serif;
+	color: #3C4242;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 33.5px;
+	letter-spacing: 0.56px;
+}
+.fiolet,
+.clothing-title{
+	display: inline-block;
+}
+.clothing-content {
+}
+.clothing-content__sub-title,
+.clothing-content__link {
+	font-family: "Core Sans C", sans-serif;
+	color: #807D7E;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 33.5px;
+	letter-spacing: 0.4px;
+	margin-bottom: 25px;
+}
+.clothing-content__text p {
+line-height: 33.5px;
+letter-spacing: 0.4px;
+margin-bottom: 20px;
+}
+.clothing-content__text span {
+	font-weight: 700;
+} 
+/* ---------------------------------- */
+.block-three {
+	font-family: "Inter", sans-serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	font-weight: 400;
+	max-width: 604px;
+	margin: 0 auto;
+}
+.whitecollar-label {
+	background: url('../img/box.png') 0 2px no-repeat;
+	padding-left: 18px;
+	margin-bottom: 16px;
+	color: #37393F;
+	font-weight: 500;
+}
+.whitecollar-title {
+font-family: "Poppins", sans-serif;
+color: #37393F;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.48px;
+margin-bottom: 20px;
+}
+.whitecollar-text {
+	margin-bottom: 20px;
+}
+.whitecollar-text p{
+	margin-bottom: 15px;
+	line-height: 26.31px;
+}
+.whitecollar-list {
+margin-bottom: 43px;
+}
+.whitecollar-list li{
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	line-height: 1.65;
+	color: #37393F;
+	font-size: 20px;
+	background: url('../img/vector.svg') 0 3px no-repeat;
+	padding-left: 35px;
+	margin-bottom: 23px;
+}
+.whitecollar-blocks {
+	font-size: 0;
+	margin-bottom: 37px;
+}
+.experience,
+.winner {
+	max-width: 291.5px;
+	display: inline-block;
+	border: 1px solid #00000027;
+	padding: 31px 32px 31px 90.12px;
+	vertical-align: top;
+}
+.whitecollar-blocks__title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 3px;
+}
+.whitecollar-blocks__text {
+	font-size: 16px;
+	line-height: 21.63px;
+}
+.experience{
+	margin-right: 21px;
+	background: url('../img/experience.svg') 32px 31px no-repeat;
+}
+.winner {
+	background: url('../img/winner.svg') 32px 31px no-repeat;
+}
+.whitecollar-button{
+	padding: 21px 27px 22px 27px;
+	color: white;
+	font-weight: 600;
+	text-transform: capitalize;
+	display: inline-block;
+	background-color: #6B77E5;
+}
+
+/* ---------------4------------------------------ */
+.block-four {
+	font-family: "Inter", sans-serif;
+	color: #7D7D7D;
+	font-size: 18px;
+	font-weight: 400;
+	max-width: 1220px;
+	margin: 0 auto;
+}
+.latest__title {
+	color: #37393F;
+	font-weight: 500;
+	background: url('../img/box.png') 0 3px no-repeat;
+	padding-left: 18px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.center{
+	text-align: center;
+	margin-bottom: 14px;
+}
+.latest__subtitle {
+font-family: "Poppins", sans-serif;
+color: #37393F;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.4px;
+margin-bottom: 14px;
+}
+.latest__text {
+	line-height: 26.31px;
+	margin-bottom: 47px;
+}
+.latest__block {
+	font-size: 0;
+
+}
+.latest__link {
+}
+.latest-item {
+	max-width: 384px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 34px;
+}
+.latest-item__image {
+min-width: 383.99px;
+min-height: 400px;
+margin-bottom: 24px;
+
+}
+.latest-item__text {
+font-family: "Poppins", sans-serif;
+color: #37393F;
+font-size: 20px;
+font-weight: 600;
+line-height: 25.4px;
+margin-bottom: 10px;
+}
+.latest-item__data {
+	font-size: 14px;
+	line-height: 20.47px;
+	padding-left: 25.35px;
+	background: url('../img/data.svg') 0 0 no-repeat;
+}
+.latest__link1 .latest-item__image {
+	background: url('../img/investment.jpg') 50%/cover no-repeat;
+}
+.latest__link2 .latest-item__image {
+	background: url('../img/marketing.jpg') 50%/cover no-repeat;
+}
+.latest__link3 .latest-item__image {
+	background: url('../img/business.jpg') 50%/cover no-repeat;
+}
+.latest__link4 .latest-item__image {
+	background: url('../img/woman.jpg') 50%/cover no-repeat;
+}
+.latest__link5 .latest-item__image {
+	background: url('../img/development.jpg') 50%/cover no-repeat;
+}
+.latest__link6 .latest-item__image {
+	background: url('../img/netbook.jpg') 50%/cover no-repeat;
+}
+.footer{
+	text-align: center;
+}

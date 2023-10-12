@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@font-face{
+	font-family: "Causten";
+	src: 
+	url("../font/causten-light-webfont.woff2") format("woff2"),
+	url("../font/causten-light-webfont.woff") format("woff");
+	font-display: swap;
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Causten";
+	src: 
+	url("../font/causten-semi-bold-webfont.woff2") format("woff2"),
+	url("../font/causten-semi-bold-webfont.woff") format("woff");
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Causten";
+	src: 
+	url("../font/causten-regular-webfont.woff2") format("woff2"),
+	url("../font/causten-regular-webfont.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Causten";
+	src: 
+	url("../font/causten-bold-webfont.woff2") format("woff2"),
+	url("../font/causten-bold-webfont.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Core Sans C";
+	src: 
+	url("../font/CoreSansC-75ExtraBoldIt.woff2") format("woff2"),
+	url("../font/CoreSansC-75ExtraBoldIt.woff") format("woff");
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Core Sans C";
+	src: 
+	url("../font/CoreSansC-65Bold.woff2") format("woff2"),
+	url("../font/CoreSansC-65Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
