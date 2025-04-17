@@ -1,0 +1,280 @@
+/* Button */
+.button {
+	border-radius: 8px;
+	background-color: #9333ea;
+	transition: all 0.3s;
+	color: #fff;
+	padding-inline: 40px;
+	padding-block: 16px;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+.button:hover {
+	background-color: #6919b5;
+
+}
+
+.button--mini {
+	font-size: 16px;
+	padding-inline: 28px;
+	padding-block: 12px;
+	line-height: 1.5;
+}
+
+.button--transparent {
+	background-color: transparent;
+}
+
+.button--transparent:hover {
+	background-color: #6919b5;
+
+}
+
+.button--white-border {
+	background-color: transparent;
+	border: 2px solid #fff;
+	padding-block: 14.5px;
+
+}
+
+.button--white-border:hover {
+	background-color: #6919b5;
+	border: 2px solid #6919b5;
+
+}
+
+/* --------------title------------- */
+.title {
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 1.1;
+	text-wrap: balance;
+
+}
+
+.title--center {
+	text-align: center;
+}
+
+
+@media (max-width: 991.98px) {
+	.title {
+		font-size: 46px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.title {
+		font-size: 40px;
+	}
+}
+
+/* --------------------------------------- */
+.label{
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.label--margin:not(:last-child){
+margin-bottom: 16px;
+}
+/* --------------------------------- */
+.block-header {
+display: grid;
+gap: 32px;
+}
+.block-header--center {
+	justify-content: center;
+}
+.block-header__title {
+	font-size: 72px;
+	font-weight: 800;
+	line-height: 1.1;
+	text-wrap: balance;
+}
+.block-header__border,
+.block-header__bg,
+.block-header__line {
+	position: relative;
+
+}
+
+.block-header__title span {
+	display: inline-block;
+}
+.block-header__bg span,
+.block-header__border span,
+.block-header__line span {
+	position: relative;
+	z-index: 2;
+}
+.block-header__bg::before{
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 0;
+	height: 100%;
+	width: 23%;
+	background: #BE185D;
+}
+.block-header__border::before{
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 0;
+	height: 100%;
+	width: 96%;
+	border: 5px solid #c2400c;
+}
+.block-header__line::before {
+	content: "";
+	height: 5px;
+	position: absolute;
+	background-color: #C084FC;
+
+}
+
+.block-header__line--bottom::before {
+	bottom: 0;
+	width: 94%;
+	left: 2px;
+
+}
+
+.block-header__line--top::before {
+	top: 15px;
+	width: 97%;
+	left: 5px;
+
+}
+
+.block-header__purpur {
+	color: #9333EA;
+}
+.block-header__lite-purpur {
+	color: #C084FC;
+}
+
+.block-header__line--top {}
+
+.block-header__text {
+	max-width: 760px;
+	line-height: 1.6;
+	text-wrap: balance;
+}
+
+
+.block-header__buttons {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+}
+
+.block-header__button {}
+.block-header__link {
+	justify-self: start;
+	padding-right: 35px;
+	background: url('../img/icons/arrow-right.svg') right no-repeat;
+}
+.block-header__link span {
+	position: relative;
+	display: inline-block;
+	line-height: 1.2;
+}
+.block-header__link span::after {
+	content: "";
+	width: 0;
+	height: 2px;
+	transition: width 0.5s;
+	background-color: #9333EA;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+.block-header__link:hover span::after {
+	width: 100%;
+}
+
+
+
+@media (max-width: 991.98px) {
+	.block-header__title {
+		font-size: 56px;
+	}
+	
+.block-header__border::before{
+	left: -7px;
+	border: 5px solid #c2400c;
+}
+
+	.block-header__line::before {
+		height: 4px;
+	}
+
+	.block-header__line--top::before {
+		top: 12px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.block-header__title {
+		font-size: 40px;
+	}
+	.block-header__border::before{
+		left: -5px;
+		border: 2px solid #c2400c;
+	}
+
+	.block-header__line::before {
+		height: 3px;
+
+	}
+
+	.block-header__line--bottom::before {
+		display: none;
+
+	}
+
+	.block-header__line--top::before {
+		top: 8px;
+
+	}
+}
+
+@media (max-width:420.98px) {
+	.block-header__buttons {
+		flex-direction: column;
+		align-items: stretch;
+	}
+}
+/* --------------------------------------------------- */
+.link-event{
+	color: #9333EA;
+	background: url("../img/icons/arrow-pink.svg") right no-repeat;
+	padding-right: 35px;
+}
+.link-event span {
+	position: relative;
+	display: inline-block;
+	line-height: 1.2;
+}
+.link-event span::after {
+	content: "";
+	width: 0;
+	height: 2px;
+	transition: width 0.5s;
+	background-color: #9333EA;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
+.link-event:hover span::after {
+	width: 100%;
+}
